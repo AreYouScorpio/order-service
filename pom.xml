@@ -5,9 +5,10 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.0</version>
-		<relativePath/>
+		<version>3.3.0</version>  <!-- Change from 3.4.0 to 3.3.0 -->
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.webshop</groupId>
 	<artifactId>order-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -24,7 +25,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>2023.0.1</version>
+				<version>2023.0.1</version>  <!-- Make sure this version supports 3.3.x -->
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
